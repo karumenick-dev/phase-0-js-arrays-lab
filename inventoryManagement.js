@@ -1,8 +1,3 @@
-// Write your code here
-
-
-
-// Export the necessary parts for testing
 module.exports = {
   logFirstProduct: typeof logFirstProduct !== 'undefined' ? logFirstProduct : undefined,
   addProduct: typeof addProduct !== 'undefined' ? addProduct : undefined,
@@ -25,5 +20,4 @@ function updateProductName(position, newName){
 }
 function removeLastProduct(){
   products.pop();
-
 }
